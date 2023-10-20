@@ -760,8 +760,14 @@ h3.my-profession {
     }
 
     .home .home-img {
-        display: none;
+        padding-top: 20px;
     }
+    .home-img::before {
+    display:none;
+}
+        .home-img::after {
+    display:none;
+}
 }
 
 @media (max-width:767px) {
